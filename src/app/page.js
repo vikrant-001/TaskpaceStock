@@ -16,6 +16,7 @@ export default function Home() {
         <p> <Link className={classes.linksc} href='#res'>Resume</Link></p>
         <p><Link className={classes.linksc} href='#about'>About</Link></p>
         <p><Link className={classes.linksc} href='#skill'>Skills</Link></p>
+        <nav className={classes.navmode}>{`<vikrant/>`}</nav>
     </nav>
 
     <div id='intro'>

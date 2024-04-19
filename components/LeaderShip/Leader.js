@@ -71,7 +71,7 @@ const Leader = () => {
         }
     },10000);
   return (
-    <div>
+    <div className={classes.container}>
         <div className={classes.photo} >
             <Image src={val.imageUrl} alt="img"  height={600} width={600}/>
         </div>

@@ -11,11 +11,11 @@ const Card = (props) => {
 
       <div className={classes.btncont}>
         <Link className={classes.wordndicon} href={props.links}>
-          <Image src={git} alt="icon" height={20} width={20}/>
+          <Image src={git} alt="icon" height={20} width={20} className={classes.icon}/>
           <p>Clone Project</p>
         </Link>
         <Link className={classes.wordndicon} href={props.links}>
-        <Image src={git} alt="icon" height={20} width={20}/>
+        <Image src={git} alt="icon" height={20} width={20} className={classes.icon}/>
           <p>Repo</p>
         </Link>
       </div>
@@ -25,12 +25,12 @@ const Card = (props) => {
         <p>Languages:</p>
         <p>Javascript:51%</p>
         <p>CSS:10%</p>
-        <p>HTML:3%</p>
+        <p>HTML:39%</p>
       </div>
 
       <div className={classes.botm}>
         <Link className={classes.wordndicon} href={props.links}>
-          <Image src={git} alt="icon" height={20} width={20}/>
+          <Image src={git} alt="icon" height={20} width={20} className={classes.icon}/>
           <p>Stars</p>
         </Link>
         <div>{props.date}</div>
