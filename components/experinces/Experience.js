@@ -10,22 +10,23 @@ const Experience = () => {
             <h1>Experiences</h1>
         </div>
         <div className={classes.cards}>
-            <div>
+            <div className={classes.carddata}>
                 <Image src={vendify}  alt='company name'/>
                 <p>Senior Software Engineer</p>
                 <p>May 2022 – Present</p>
             </div>
-            <div>
+            <div className={classes.carddata}>
                 <Image src={spi} alt='company name'/>
                 <p>React Developer</p>
                 <p>Aug 2020 – May 2022</p>
             </div>
-            <div>
-                <Image src={newimgadded} alt='company name' height={250} width={700}/>
+            <div className={classes.carddata}>
+                <Image src={newimgadded} alt='company name' height={120} width={250}/>
                 <p>React Developer</p>
                 <p>Aug 2020 – May 2022</p>
             </div>
-
+            <div className={classes.carddata}>
+            </div>
             
         </div>
     </div>
