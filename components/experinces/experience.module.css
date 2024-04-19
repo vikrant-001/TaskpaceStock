@@ -11,10 +11,15 @@
 }
 
 .cards{
-    display: flex;
+    /* display: flex;
     gap: 8rem;
     margin-top:-2rem;
-    padding: 3rem;
+    padding: 3rem; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .cards p {
